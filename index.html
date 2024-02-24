@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f15ac8f491.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="leftside">
+        <div class="calculator">
+            <h1 class="h1">Calculator</h1>
+            <input type="text" value="" disabled id="calci1">
+            <input type="text" value="" id="calci2">
+            <br>
+            <button id="btn" onclick="getValue('%')">%</button><button id="btn2"
+                onclick="clearDigit()">C</button><button id="btn" onclick="showHistory()">HIST</button><button id="btn"
+                onclick="removeDigit()"><i class="fa-solid fa-delete-left"></i></button>
+            <button id="btn" onclick="getValue('7')">7</button><button id="btn"
+                onclick="getValue('8')">8</button><button id="btn" onclick="getValue('9')">9</button><button id="btn"
+                onclick="getValue('*')">X</button>
+            <button id="btn" onclick="getValue('4')">4</button><button id="btn"
+                onclick="getValue('5')">5</button><button id="btn" onclick="getValue('6')">6</button><button id="btn"
+                onclick="getValue('+')">+</button>
+            <button id="btn" onclick="getValue('1')">1</button><button id="btn"
+                onclick="getValue('2')">2</button><button id="btn" onclick="getValue('3')">3</button><button id="btn"
+                onclick="getValue('-')">-</button>
+            <button id="btn" onclick="getValue('.')">.</button><button id="btn"
+                onclick="getValue('0')">0</button><button id="btn" onclick="getValue('/')"><i
+                    class="fa-solid fa-divide"></i></button><button id="btn1" onclick="solve()"> = </button>
+        </div>
+    </div>
+
+
+
+
+    <div id="rightside">
+        <div class="history">
+            <h1>History</h1>
+
+        </div>
+
+        <div id="historyBox">
+
+
+
+        </div>
+        <div id="historyDelete" onclick="clearHistory()">
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+
+
+        </div>
+
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>

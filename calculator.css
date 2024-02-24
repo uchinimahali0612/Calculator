@@ -1,0 +1,126 @@
+    #leftside {
+        /* border: 1px solid black; */
+        width: 49%;
+        display: inline-block;
+        float: left;
+    }
+
+    .calculator {
+        border: 1px solid gray;
+        width: 65%;
+        height: 38rem;
+        margin-left: 160px;
+        margin-top: 10px;
+        background-image: linear-gradient(45deg, #000428, #004e92);
+        box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2), 0 1px 200px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .h1 {
+        margin-left: 20px;
+        color: white;
+        font-family: Papyrus;
+        /* height: 38px; */
+    }
+
+    input#calci1 {
+        width: 98%;
+        height: 40px;
+        font-size: 23px;
+        font-family: Papyrus;
+        font-weight: bolder;
+        border-bottom: none;
+        border-top: none;
+        background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+        text-align: right;
+    }
+
+    input#calci2 {
+        width: 98%;
+        height: 40px;
+        font-size: 23px;
+        font-family: Papyrus;
+        font-weight: bolder;
+        border-bottom: none;
+        border-top: none;
+        background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+        text-align: right;
+    }
+
+    #btn {
+        width: 18%; 
+        margin-right: 18px;
+        margin-left: 10px;
+        margin-top: 19px;
+        font-family: Papyrus;
+        background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+        font-size: 20px;
+        font-weight: 900;
+        height: 62px;
+        border-radius: 26px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #btn1 {
+        width: 20%;
+        margin-right: 18px;
+        margin-left: 4px;
+        margin-top: 3px;
+        font-family: Papyrus;
+        font-size: 20px;
+        background-image: linear-gradient(45deg, #7F7FD5, #86A8E7, #91EAE4);
+        font-weight: 900;
+        height: 69px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #btn2 {
+        width: 19%;
+        margin-right: 18px;
+        margin-left: 4px;
+        margin-top: 3px;
+        font-family: Papyrus;
+        background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+        font-size: 20px;
+        font-weight: 900;
+        height: 62px;
+        border-radius: 26px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #rightside {
+
+        width: 37%;
+        display: inline-block;
+        color: white;
+        background-image: linear-gradient(45deg, #000428, #004e92);
+        float: right;
+        font-family: Papyrus;
+        margin-right: 72px;
+    }
+
+    #historyBox {
+        height: 560px;
+        overflow: auto;
+        text-align: right;
+    }
+   #historyBox::-webkit-scrollbar {
+      width: 20px;  
+      }
+
+    #historyDelete {
+        height: 50px;
+        color: white;
+    }
+
+    i.fa.fa-trash-o {
+        /* text-align: center; */
+        margin-left: 261px;
+        font-size: 25px;
+    }
+
+    .history {
+        color: white;
+        margin-left: 20px;
+    }
